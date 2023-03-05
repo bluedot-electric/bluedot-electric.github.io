@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 16.3.1//EN
+N:Singh;Amrinder;;;
+FN:Amrinder Singh
+ORG:Bluedot Electric Ltd.;
+TITLE:Licensed Electrician
+EMAIL;type=INTERNET;type=pref:bluedot-electric@hotmail.com
+TEL;type=pref:604-401-8998
+ADR;type=pref:;;;Surrey;British Columbia;;Canada
+item1.URL;type=pref:www.bluedot-electric.ca
+item1.X-ABLabel:_$!<HomePage>!$_
+END:VCARD

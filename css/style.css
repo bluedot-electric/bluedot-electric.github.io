@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background-color: #aaa;
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: #000000;
+}
+.content {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+.ps-content {
+  padding-left: 2.5rem;
+}
+.pe-content {
+  padding-right: 2.5rem;
+}
+#hero-content {
+  background-image: url("../images/hero-image2.jpg");
+  background-position: bottom center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: #bbbbbb;
+  text-align: center;
+}
+img.logo {
+  width: 100%;
+}
+#hero-section {
+  height: 500px;
+}
+#hero-section h1 {
+  font-size: 2.2rem;
+}
+.btn-circle {
+  border-radius: 50% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+}
+.btn-circle img {
+  height: 30px;
+}
+.btn-primary {
+  background-color: #0d5a8e;
+  border-color: #0d5a8e;
+}
+.bg-blue {
+  background-color: #0d5a8e;
+}
+.py-large {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.pb-medium {
+  padding-bottom: 3rem;
+}
+.pb-large {
+  padding-bottom: 6rem;
+}
+#why-choose-us {
+  text-align: center;
+}
+.why-choose-us-img {
+  background-image: url("../images/electrician-tools.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.icon {
+  background-color: #0d5a8e;
+  border-radius: 50%;
+  width: 130px;
+  margin-bottom: 25px;
+}
+.icon img {
+  width: 100%;
+}
+footer {
+  text-align: center;
+}
+#footer-qr-code a {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 60px;
+}
+img.qr-code {
+  width: 200px;
+}
+
+@media screen and (min-width: 420px) {
+  img.logo {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  #hero-content {
+    text-align: left;
+  }
+  #hero-section h1 {
+    font-size: 2.6rem;
+  }
+  #why-choose-us {
+    text-align: left;
+  }
+  .content {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+  .ps-content {
+    padding-left: 4.5rem;
+  }
+  .pe-content {
+    padding-right: 4.5rem;
+  }
+  #hero-section {
+    min-height: 400px;
+  }
+  footer {
+    text-align: right;
+  }
+  #footer-qr-code a {
+    margin: 0;
+  }
+  img.qr-code {
+    width: 100%;
+  }
+  #footer-contact {
+    padding-left: 2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #hero-content {
+    background-blend-mode: normal;
+  }
+  #hero-section h1 {
+    font-size: 2.6rem;
+  }
+  #footer-contact {
+    padding-left: 4.5rem;
+  }
+
+  img.qr-code {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #hero-section h1 {
+    font-size: 2.8rem;
+  }
+}
